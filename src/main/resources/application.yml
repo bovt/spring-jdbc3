@@ -1,0 +1,20 @@
+engine:
+  defaults:
+    author: 1
+    category: unclassified
+
+spring:
+  datasource:
+    spring:
+      datasource: url:jdbc:h2:mem:testdb
+      initialization-mode:  always
+  shell:
+    interactive:
+      enabled: true
+
+logging:
+  level:
+    ROOT: INFO
+
+server:
+  port: 8081
